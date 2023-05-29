@@ -53,7 +53,20 @@ print(digits)
 # TAKES - AS A SEPARATOR AND PERFORMS MAXIMUM 3 SPLITS
 
 
-    
+values = input('Ingresa algunos numeros separados por una coma: ')
+list = values.split(",")
+tuple = tuple(list)
+print('List: ', list)
+print()
+print('Tuple: ', tuple)
+print()
+
+colores = input('Ingresa algunos colores separados por una coma: ')
+lista2 = colores.split(",")
+print("Primer color: ", end = " :")
+print(repr(lista2[0]))
+print("Ultimo color: ", end = " :")
+print(repr(lista2[-1]))
     
     
     
